@@ -364,7 +364,7 @@
     window.onscroll = function () {
       let windowScrollBottom = window.scrollY + window.innerHeight;
       // scroll to top button
-      document.querySelector('.scrollup').style.display = window.scrollY > 500 ? 'flex' : 'none';
+      document.querySelector('.scrollup').style.display = window.scrollY > 500 ? '-webkit-flex' : 'none';
 
       // Tokenomics
       let quadrillionTitle = document.querySelector('.quadrillion .content > .title')

@@ -262,6 +262,7 @@ a {
   z-index        : 10000;
   padding        : 25px;
   display        : flex;
+  display        : -webkit-flex;
   justify-content: space-between;
   background     : linear-gradient(116deg, #052839 0%, #3c91e6 100%) !important;
 
@@ -271,6 +272,7 @@ a {
 
   .logo {
     display: flex;
+    display: -webkit-flex;
     width  : 70px;
 
     img {
@@ -281,10 +283,12 @@ a {
 
   nav {
     display    : flex;
+    display    : -webkit-flex;
     align-items: center;
 
     ul {
       display: flex;
+      display: -webkit-flex;
 
       li {
         padding-inline: 15px;
@@ -432,6 +436,7 @@ a {
 
 .hero-footer {
   display        : flex;
+  display        : -webkit-flex;
   align-items    : center;
   justify-content: center;
   bottom         : 0;
@@ -443,6 +448,7 @@ a {
   nav {
     ul {
       display: flex;
+      display: -webkit-flex;
 
       li {
         animation          : nav-icons 0.5s ease-in-out forwards;
@@ -452,6 +458,7 @@ a {
         position           : relative;
         top                : 0;
         display            : flex;
+        display            : -webkit-flex;
         align-items        : center;
         justify-content    : center;
         width              : 6em;
@@ -536,6 +543,7 @@ a {
 
   .wrapper {
     display      : flex;
+    display      : -webkit-flex;
     align-items  : center;
     width        : 80%;
     margin-inline: auto;
@@ -593,6 +601,7 @@ a {
 
   .quadrillion {
     display    : flex;
+    display    : -webkit-flex;
     align-items: center;
     width      : 80%;
     margin     : 30px auto 90px;
@@ -626,6 +635,7 @@ a {
       ul {
         li {
           display       : flex;
+          display       : -webkit-flex;
           flex-direction: column;
           align-items   : flex-start;
 
@@ -641,6 +651,7 @@ a {
             width        : 100%;
             height       : 21px;
             display      : flex;
+            display      : -webkit-flex;
             border-radius: 10px;
             background   : #00000025;
 
@@ -663,12 +674,14 @@ a {
 
   .price-list {
     display        : flex;
+    display        : -webkit-flex;
     align-items    : center;
     justify-content: space-around;
     margin-bottom  : 90px;
 
     li {
       display       : flex;
+      display       : -webkit-flex;
       flex-direction: column;
       text-align    : center;
 
@@ -695,6 +708,7 @@ a {
 
     ul {
       display        : flex;
+      display        : -webkit-flex;
       justify-content: center;
       flex-wrap      : wrap;
       margin-bottom  : 45px;
@@ -729,6 +743,7 @@ a {
 /* links */
 #links {
   display: flex;
+  display: -webkit-flex;
 
   .content {
     width           : 50%;
@@ -738,6 +753,7 @@ a {
 
     .title {
       display       : flex;
+      display       : -webkit-flex;
       flex-direction: column;
       font-size     : 36px;
       font-weight   : 700;
@@ -769,6 +785,7 @@ a {
 
   .img {
     display         : flex;
+    display         : -webkit-flex;
     align-items     : center;
     width           : 50%;
     background-image: linear-gradient(156deg, #f5812a 0%, #eb507f 100%);
@@ -795,7 +812,6 @@ a {
   width          : 40px;
   z-index        : 99;
   background     : #F57E30;
-  display        : flex;
   align-items    : center;
   justify-content: center;
 }
@@ -819,6 +835,7 @@ a {
 
     &>ul {
       display        : flex;
+      display        : -webkit-flex;
       flex-wrap      : wrap;
       justify-content: space-around;
       margin-bottom  : -30px;
@@ -850,6 +867,7 @@ a {
         ul {
           li {
             display      : flex;
+            display      : -webkit-flex;
             align-items  : center;
             line-height  : 1;
             margin-bottom: 20px;
@@ -896,6 +914,7 @@ a {
 
   .img {
     display        : flex;
+    display        : -webkit-flex;
     justify-content: center;
     margin-bottom  : 100px;
 
@@ -907,6 +926,7 @@ a {
 
   .copyright {
     display        : flex;
+    display        : -webkit-flex;
     justify-content: center;
     padding-inline : 20px;
   }
@@ -990,6 +1010,7 @@ a {
 
         li {
           display       : flex;
+          display       : -webkit-flex;
           padding       : 10px 5%;
           font-weight   : 700;
           text-transform: uppercase;
