@@ -775,7 +775,7 @@ a:hover {
   text-align: center;
   width: 40px;
   z-index: 99;
-  background: #0000ff;
+  background: #3889d9;
   align-items: center;
   justify-content: center;
 }
@@ -1030,12 +1030,8 @@ a:hover {
     width: 100%;
   }
 
-  #roadmap .content > ul {
-    margin-bottom: -60px;
-  }
   #roadmap .content > ul > li {
     width: 45%;
-    margin-bottom: 30px;
   }
 
   .footer {
@@ -1157,7 +1153,6 @@ a:hover {
 
   #roadmap .content > ul > li {
     width: 80%;
-    margin-bottom: 30px;
   }
 }
 /* Mobile (Portrait) */

@@ -811,7 +811,7 @@ a {
   text-align     : center;
   width          : 40px;
   z-index        : 99;
-  background     : #0000ff;
+  background     : #3889d9;
   align-items    : center;
   justify-content: center;
 }
@@ -838,7 +838,7 @@ a {
       display        : -webkit-flex;
       flex-wrap      : wrap;
       justify-content: space-around;
-      padding-bottom  : 30px;
+      padding-bottom : 30px;
 
       &>li {
         width        : 22%;
@@ -1102,11 +1102,9 @@ a {
   }
 
   #roadmap .content>ul {
-    margin-bottom: -60px;
 
     &>li {
-      width        : 45%;
-      margin-bottom: 30px;
+      width: 45%;
     }
   }
 
@@ -1218,7 +1216,6 @@ a {
 
   #roadmap .content>ul>li {
     width        : 80%;
-    margin-bottom: 30px;
   }
 }
 
