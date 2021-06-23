@@ -212,7 +212,8 @@ a {
   font-weight     : bold;
   border-radius   : 50px;
   border-width    : 0;
-  transition: all 300ms ease 0ms;
+  transition      : all 300ms ease 0ms;
+
   &:hover {
     background-color: #0a405a;
   }
@@ -298,15 +299,11 @@ a {
         padding-inline: 15px;
 
         a {
-          border        : none;
           font-weight   : 700;
           text-transform: uppercase;
           letter-spacing: 1px;
-
-          &:hover {
-            opacity   : .7;
-            transition: all .4s ease-in-out;
-          }
+          padding: 15px 30px;
+          font-size: 16px;
         }
       }
     }
@@ -776,7 +773,7 @@ a {
     }
 
     .divider {
-      background-image: linear-gradient(146deg, #f5812a 0%, #eb507f 100%);
+      background: linear-gradient(146deg, #3c91e6 0%, #052839 100%);
     }
 
     .description {
@@ -929,9 +926,9 @@ a {
   }
 
   .buttons {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 16px;
+    margin-bottom : 50px;
+    text-align    : center;
+    font-size     : 16px;
     letter-spacing: 1.5px;
 
     .btn-wrapper {
@@ -1230,7 +1227,7 @@ a {
   }
 
   #roadmap .content>ul>li {
-    width        : 80%;
+    width: 80%;
   }
 }
 
