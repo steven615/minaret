@@ -207,6 +207,10 @@ a:hover {
   font-weight: bold;
   border-radius: 50px;
   border-width: 0;
+  transition: all 300ms ease 0ms;
+}
+.btn-wrapper a:hover {
+  background-color: #0a405a;
 }
 
 .divider {
@@ -827,7 +831,6 @@ a:hover {
 #roadmap .content > ul > li ul li {
   display: flex;
   display: -webkit-flex;
-  align-items: center;
   line-height: 1;
   margin-bottom: 20px;
   font-size: 18px;
@@ -862,11 +865,20 @@ a:hover {
   display: flex;
   display: -webkit-flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .footer .img img {
   width: 15%;
   min-width: 170px;
+}
+.footer .buttons {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.footer .buttons .btn-wrapper {
+  margin-bottom: 50px;
 }
 .footer .copyright {
   display: flex;
