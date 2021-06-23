@@ -273,7 +273,7 @@ a {
   .logo {
     display: flex;
     display: -webkit-flex;
-    width  : 70px;
+    width  : 35px;
 
     img {
       width : 100%;
@@ -584,7 +584,7 @@ a {
 /* tokenomics */
 #tokenomics {
   padding   : 68px 0;
-  background: radial-gradient(circle at 25% 55%, #f5812a 0%, #eb507f 100%);
+  background: radial-gradient(circle at 25% 55%, #6a8c9c 0%, #052839 100%);
 
   .title {
     font-weight   : 700;
@@ -659,7 +659,7 @@ a {
               width        : 5%;
               height       : 100%;
               border-radius: 10px;
-              background   : #EB3C33;
+              background   : #fff;
               transition   : width .5s;
             }
           }
@@ -811,7 +811,7 @@ a {
   text-align     : center;
   width          : 40px;
   z-index        : 99;
-  background     : #F57E30;
+  background     : #0000ff;
   align-items    : center;
   justify-content: center;
 }
@@ -838,7 +838,7 @@ a {
       display        : -webkit-flex;
       flex-wrap      : wrap;
       justify-content: space-around;
-      margin-bottom  : -30px;
+      padding-bottom  : 30px;
 
       &>li {
         width        : 22%;
@@ -1201,9 +1201,15 @@ a {
     }
   }
 
-  #why .wrapper .content .btn-view a {
-    padding  : 10px 20px;
-    font-size: 16px;
+  #why .wrapper .content {
+    .btn-view a {
+      padding  : 10px 20px;
+      font-size: 16px;
+    }
+
+    .description {
+      margin-bottom: 50px;
+    }
   }
 
   #links .content {
@@ -1236,9 +1242,19 @@ a {
     padding: 0 1em;
   }
 
-  #tokenomics .taxes ul li {
-    margin: auto;
-    width : 80%;
+  #why .wrapper {
+    margin: 5px;
+  }
+
+  #tokenomics {
+    .quadrillion .content {
+      width: 100%;
+    }
+
+    .taxes ul li {
+      margin: auto;
+      width : 80%;
+    }
   }
 
   #links .content {

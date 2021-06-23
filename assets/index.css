@@ -263,7 +263,7 @@ a:hover {
 .header .logo {
   display: flex;
   display: -webkit-flex;
-  width: 70px;
+  width: 35px;
 }
 .header .logo img {
   width: 100%;
@@ -585,7 +585,7 @@ a:hover {
 /* tokenomics */
 #tokenomics {
   padding: 68px 0;
-  background: radial-gradient(circle at 25% 55%, #f5812a 0%, #eb507f 100%);
+  background: radial-gradient(circle at 25% 55%, #6a8c9c 0%, #052839 100%);
 }
 #tokenomics .title {
   font-weight: 700;
@@ -652,7 +652,7 @@ a:hover {
   width: 5%;
   height: 100%;
   border-radius: 10px;
-  background: #EB3C33;
+  background: #fff;
   transition: width 0.5s;
 }
 #tokenomics .quadrillion .content ul .percent {
@@ -775,7 +775,7 @@ a:hover {
   text-align: center;
   width: 40px;
   z-index: 99;
-  background: #F57E30;
+  background: #0000ff;
   align-items: center;
   justify-content: center;
 }
@@ -799,7 +799,7 @@ a:hover {
   display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: -30px;
+  padding-bottom: 30px;
 }
 #roadmap .content > ul > li {
   width: 22%;
@@ -1147,6 +1147,9 @@ a:hover {
     padding: 10px 20px;
     font-size: 16px;
   }
+  #why .wrapper .content .description {
+    margin-bottom: 50px;
+  }
 
   #links .content {
     padding: 50px;
@@ -1183,6 +1186,13 @@ a:hover {
     padding: 0 1em;
   }
 
+  #why .wrapper {
+    margin: 5px;
+  }
+
+  #tokenomics .quadrillion .content {
+    width: 100%;
+  }
   #tokenomics .taxes ul li {
     margin: auto;
     width: 80%;
